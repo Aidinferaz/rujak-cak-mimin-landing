@@ -18,7 +18,10 @@ gsap.registerPlugin(ScrollTrigger);
 export function Motion() {
   useEffect(() => {
     const root = document.documentElement;
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // ?static renders the page with no motion (used for Figma capture and print)
+    const reduce =
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+      new URLSearchParams(window.location.search).has("static");
 
     // header ringkas setelah hero
     const hero = document.querySelector<HTMLElement>(".hero");

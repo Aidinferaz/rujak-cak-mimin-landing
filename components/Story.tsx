@@ -38,6 +38,7 @@ export function Story() {
     const panels = gsap.utils.toArray<HTMLElement>(".story-stage", section);
     const progressItems = gsap.utils.toArray<HTMLElement>(".story-progress li", section);
 
+    if (new URLSearchParams(window.location.search).has("static")) return;
     const mm = gsap.matchMedia();
     mm.add(
       "(min-width: 900px) and (orientation: landscape) and (prefers-reduced-motion: no-preference)",
