@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "stage": "hero",
+  "id": "hero",
+  "title": "Layar pertama (hero) — build Next.js",
+  "comp": {"path": ".impeccable/mocks/comp-pour-quiet.png", "width": 1536, "height": 1024},
+  "components": [{
+    "id": "first-viewport",
+    "name": "Layar pertama",
+    "medium": "HTML / CSS (Next.js)",
+    "note": "Revisi 4: toples dihapus; sisi kanan diisi amplifikasi motif batik kawung (garis karamel tipis, skala besar) yang memudar dari pojok kanan bawah ke tengah.",
+    "box": {"x": 0, "y": 0, "w": 1, "h": 1},
+    "preview": {"kind": "image", "path": ".impeccable/review/hero-accept.png"},
+    "dependencies": []
+  }]
+}

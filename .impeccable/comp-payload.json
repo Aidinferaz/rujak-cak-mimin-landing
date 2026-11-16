@@ -1,0 +1,10 @@
+{
+  "title": "Pilih komposisi halaman Cak Mimin",
+  "question": "Tiga komposisi untuk arah 'Dari Nira ke Cobek'. Komposisi yang dipilih jadi acuan build yang diikuti persis. Pakai kolom steer untuk menggabungkan atau merevisi.",
+  "options": [
+    {"id": "comp-1", "label": "Panggung ganda", "kicker": "KOMPOSISI 1", "thesis": "Gula aren di kiri, cobek di kanan, judul di tengah; cerita empat tahap langsung terlihat di bawah.", "palette": ["#2E1810","#A85A26","#D9893B","#4F6B2C","#C93A22"], "materials": ["foto gula aren","cobek","batik kawung timbul"], "viewport": "Hero simetris dengan dua foto pengapit, lalu baris Nira, Wajan, Cobek, Piring.", "risk": "Paling aman dari ketiganya; simetrinya mendekati hero standar.", "comp": ".impeccable/mocks/decision/assigned.png"},
+    {"id": "comp-2", "label": "Tuangan nira", "kicker": "KOMPOSISI 2", "thesis": "Satu aliran gula aren cair jatuh dari atas halaman ke cobek, dengan navigasi tahap 01–04 di kolom margin.", "palette": ["#2E1810","#A85A26","#D9893B","#4F6B2C","#C93A22"], "materials": ["aliran karamel","cobek","daun pisang","kemasan pouch"], "viewport": "Aliran vertikal di kiri, judul besar di tengah, kemasan dan gula aren di kanan, buah di bawah.", "risk": "Aliran cair harus dianimasikan dengan baik; kalau statis, efeknya hilang.", "comp": ".impeccable/mocks/comp-pour.png"},
+    {"id": "comp-3", "label": "Bongkah gula aren", "kicker": "KOMPOSISI 3", "thesis": "Hero adalah potongan gula aren raksasa dengan teks langsung di atasnya; varian dibandingkan pada satu skala rasa.", "palette": ["#2E1810","#A85A26","#D9893B","#4F6B2C","#C93A22"], "materials": ["tekstur gula aren","cobek","toples varian","meteran rasa"], "viewport": "Tekstur gula aren memenuhi layar, judul di atasnya, cobek menumpang di tepi, varian dengan meteran rasa di bawah.", "risk": "Teks di atas tekstur perlu dijaga keterbacaannya; label toples mengarang wajah maskot yang perlu diganti.", "comp": ".impeccable/mocks/comp-slab.png"}
+  ],
+  "steer": true
+}

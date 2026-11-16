@@ -1,0 +1,796 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-16T12:36:09.703Z",
+  "comp": ".impeccable/mocks/comp-pour-quiet.png",
+  "warnings": [
+    "region pour: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region cobek: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+  ],
+  "uncoveredInkCells": [
+    "D0"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#431908",
+      "coverage": 0.7783
+    },
+    {
+      "hex": "#1d120b",
+      "coverage": 0.0745
+    },
+    {
+      "hex": "#484f1c",
+      "coverage": 0.067
+    },
+    {
+      "hex": "#f7eed9",
+      "coverage": 0.0542
+    },
+    {
+      "hex": "#742609",
+      "coverage": 0.026
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0353,
+      "strength": 0.5303
+    },
+    {
+      "y": 0.0588,
+      "strength": 0.3374
+    },
+    {
+      "y": 0.1647,
+      "strength": 0.2235
+    },
+    {
+      "y": 0.2118,
+      "strength": 0.4444
+    },
+    {
+      "y": 0.2471,
+      "strength": 0.4511
+    },
+    {
+      "y": 0.2941,
+      "strength": 0.5199
+    },
+    {
+      "y": 0.3294,
+      "strength": 0.6429
+    },
+    {
+      "y": 0.3765,
+      "strength": 0.5258
+    },
+    {
+      "y": 0.4353,
+      "strength": 0.3634
+    },
+    {
+      "y": 0.4706,
+      "strength": 0.3063
+    },
+    {
+      "y": 0.5059,
+      "strength": 0.2124
+    },
+    {
+      "y": 0.5529,
+      "strength": 0.2464
+    }
+  ],
+  "regions": [
+    {
+      "id": "ground",
+      "kind": "texture",
+      "note": "deep gula-aren brown ground with a very faint embossed kawung batik pattern",
+      "grid": null,
+      "box": {
+        "x": 0.8073,
+        "y": 0.4199,
+        "w": 0.1693,
+        "h": 0.1953
+      },
+      "px": {
+        "x": 1240,
+        "y": 430,
+        "w": 260,
+        "h": 200
+      },
+      "aspect": 1.3,
+      "palette": [
+        {
+          "hex": "#471908",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 2.7906
+      },
+      "medium": "raster",
+      "plate": "assets/plates/ground.png",
+      "text": null
+    },
+    {
+      "id": "pour",
+      "kind": "plate",
+      "note": "single ribbon of molten amber gula aren pouring from the top edge down into the cobek",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.14,
+        "y": 0,
+        "w": 0.2018,
+        "h": 0.7715
+      },
+      "px": {
+        "x": 215,
+        "y": 0,
+        "w": 310,
+        "h": 790
+      },
+      "aspect": 0.3924,
+      "palette": [
+        {
+          "hex": "#3c1708",
+          "coverage": 0.6679
+        },
+        {
+          "hex": "#672009",
+          "coverage": 0.1391
+        },
+        {
+          "hex": "#bb4a08",
+          "coverage": 0.0824
+        },
+        {
+          "hex": "#902f08",
+          "coverage": 0.0578
+        },
+        {
+          "hex": "#23190e",
+          "coverage": 0.0528
+        }
+      ],
+      "detail": {
+        "energy": 17.713
+      },
+      "medium": "raster",
+      "plate": "assets/plates/pour.png",
+      "text": null
+    },
+    {
+      "id": "cobek",
+      "kind": "plate",
+      "note": "black stone cobek full of chunky rujak sauce with peanuts, three slices of green mango, on a large banana leaf",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0,
+        "y": 0.5859,
+        "w": 0.8529,
+        "h": 0.4141
+      },
+      "px": {
+        "x": 0,
+        "y": 600,
+        "w": 1310,
+        "h": 424
+      },
+      "aspect": 3.0896,
+      "palette": [
+        {
+          "hex": "#471908",
+          "coverage": 0.4741
+        },
+        {
+          "hex": "#484f1c",
+          "coverage": 0.2024
+        },
+        {
+          "hex": "#1c130c",
+          "coverage": 0.193
+        },
+        {
+          "hex": "#f1d78c",
+          "coverage": 0.0717
+        },
+        {
+          "hex": "#59463c",
+          "coverage": 0.0589
+        }
+      ],
+      "detail": {
+        "energy": 25.6328
+      },
+      "medium": "raster",
+      "plate": "assets/plates/cobek.png",
+      "text": null
+    },
+    {
+      "id": "wordmark",
+      "kind": "text",
+      "note": "serif wordmark Cak Mimin in cream",
+      "grid": null,
+      "box": {
+        "x": 0.0378,
+        "y": 0.0078,
+        "w": 0.1855,
+        "h": 0.0625
+      },
+      "px": {
+        "x": 58,
+        "y": 8,
+        "w": 285,
+        "h": 64
+      },
+      "aspect": 4.4531,
+      "palette": [
+        {
+          "hex": "#381408",
+          "coverage": 0.6906
+        },
+        {
+          "hex": "#f7edd7",
+          "coverage": 0.2589
+        },
+        {
+          "hex": "#5e2009",
+          "coverage": 0.0218
+        },
+        {
+          "hex": "#c1ad93",
+          "coverage": 0.0168
+        },
+        {
+          "hex": "#180908",
+          "coverage": 0.0119
+        }
+      ],
+      "detail": {
+        "energy": 53.4439
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 40.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7657,
+          "advTall": 0.7657,
+          "advX": null,
+          "gap": 0.0617,
+          "xRatio": 0.6716,
+          "stemW": 0.2317,
+          "contrast": 1.7364,
+          "serif": 1.08,
+          "densTall": 0.4755,
+          "densX": null,
+          "weight": 0.4755
+        },
+        "widthClass": "normal",
+        "weightClass": "regular",
+        "chosen": {
+          "family": "Platypi",
+          "weight": 700,
+          "fontSizePx": 54,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 8,
+            "capHeightPx": 40,
+            "inkIsDark": true,
+            "allCaps": false,
+            "advance": 0.8491,
+            "advTall": 0.8491,
+            "advX": 0.8491,
+            "gap": 0.0499,
+            "xRatio": 0.6743,
+            "stemW": 0.2209,
+            "contrast": 2.0344,
+            "serif": 1.5985,
+            "densTall": 0.5131,
+            "densX": 0.581,
+            "weight": 0.5131
+          },
+          "stamp": "f3a8717b0475"
+        }
+      }
+    },
+    {
+      "id": "wordmark-sub",
+      "kind": "text",
+      "note": "small tracked caps BUMBU RUJAK MANIS between thin rules",
+      "grid": null,
+      "box": {
+        "x": 0.0456,
+        "y": 0.0742,
+        "w": 0.168,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 70,
+        "y": 76,
+        "w": 258,
+        "h": 22
+      },
+      "aspect": 11.7273,
+      "palette": [
+        {
+          "hex": "#3a1508",
+          "coverage": 0.8045
+        },
+        {
+          "hex": "#f6f4f1",
+          "coverage": 0.1053
+        },
+        {
+          "hex": "#cfc0b3",
+          "coverage": 0.0391
+        },
+        {
+          "hex": "#664535",
+          "coverage": 0.0376
+        },
+        {
+          "hex": "#846d5f",
+          "coverage": 0.0135
+        }
+      ],
+      "detail": {
+        "energy": 69.3337
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 22,
+          "capHeightPx": 10.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7625,
+          "advTall": 0.7625,
+          "advX": null,
+          "gap": 0.2859,
+          "xRatio": 0.5016,
+          "stemW": 0.2284,
+          "contrast": 1.1692,
+          "serif": 0.6508,
+          "densTall": 0.6351,
+          "densX": null,
+          "weight": 0.6351
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "nav",
+      "kind": "chrome",
+      "note": "navigation links Cerita Varian Cara Ngerujak Testimoni Kemitraan in cream sans",
+      "grid": null,
+      "box": {
+        "x": 0.3581,
+        "y": 0.0215,
+        "w": 0.5404,
+        "h": 0.041
+      },
+      "px": {
+        "x": 550,
+        "y": 22,
+        "w": 830,
+        "h": 42
+      },
+      "aspect": 19.7619,
+      "palette": [
+        {
+          "hex": "#471908",
+          "coverage": 0.8598
+        },
+        {
+          "hex": "#f4f3f1",
+          "coverage": 0.0947
+        },
+        {
+          "hex": "#cbbbb4",
+          "coverage": 0.0198
+        },
+        {
+          "hex": "#806555",
+          "coverage": 0.0135
+        },
+        {
+          "hex": "#5e3f2f",
+          "coverage": 0.0122
+        }
+      ],
+      "detail": {
+        "energy": 55.2843
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "nav-pesan",
+      "kind": "control",
+      "note": "underlined Pesan link",
+      "grid": null,
+      "box": {
+        "x": 0.9323,
+        "y": 0.0234,
+        "w": 0.0521,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 1432,
+        "y": 24,
+        "w": 80,
+        "h": 34
+      },
+      "aspect": 2.3529,
+      "palette": [
+        {
+          "hex": "#431909",
+          "coverage": 0.776
+        },
+        {
+          "hex": "#f7f7f5",
+          "coverage": 0.1325
+        },
+        {
+          "hex": "#5f3e28",
+          "coverage": 0.041
+        },
+        {
+          "hex": "#866653",
+          "coverage": 0.0284
+        },
+        {
+          "hex": "#260808",
+          "coverage": 0.0221
+        }
+      ],
+      "detail": {
+        "energy": 26.1239
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "rail",
+      "kind": "chrome",
+      "note": "vertical stage rail 01 Nira active in a green flag, 02 Wajan 03 Cobek 04 Piring muted with ring dots on a thin line",
+      "grid": null,
+      "box": {
+        "x": 0.0286,
+        "y": 0.1641,
+        "w": 0.1094,
+        "h": 0.4102
+      },
+      "px": {
+        "x": 44,
+        "y": 168,
+        "w": 168,
+        "h": 420
+      },
+      "aspect": 0.4,
+      "palette": [
+        {
+          "hex": "#3a1808",
+          "coverage": 0.809
+        },
+        {
+          "hex": "#286708",
+          "coverage": 0.1246
+        },
+        {
+          "hex": "#cdb4a3",
+          "coverage": 0.0396
+        },
+        {
+          "hex": "#f7f7f3",
+          "coverage": 0.0148
+        },
+        {
+          "hex": "#684734",
+          "coverage": 0.012
+        }
+      ],
+      "detail": {
+        "energy": 13.9472
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "three-line high-contrast serif headline Manisnya / dari nira, / bukan dari pabrik. in cream",
+      "grid": null,
+      "box": {
+        "x": 0.3112,
+        "y": 0.125,
+        "w": 0.6022,
+        "h": 0.2832
+      },
+      "px": {
+        "x": 478,
+        "y": 128,
+        "w": 925,
+        "h": 290
+      },
+      "aspect": 3.1897,
+      "palette": [
+        {
+          "hex": "#431b08",
+          "coverage": 0.745
+        },
+        {
+          "hex": "#f8edd5",
+          "coverage": 0.2058
+        },
+        {
+          "hex": "#260e08",
+          "coverage": 0.0303
+        },
+        {
+          "hex": "#735d4c",
+          "coverage": 0.0123
+        },
+        {
+          "hex": "#c7b7a0",
+          "coverage": 0.0066
+        }
+      ],
+      "detail": {
+        "energy": 62.7298
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 19,
+          "capHeightPx": 70.8,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.8728,
+          "advTall": 0.8299,
+          "advX": 0.8969,
+          "gap": 0.0286,
+          "xRatio": 0.6971,
+          "stemW": 0.2574,
+          "contrast": 2.8409,
+          "serif": 1.5797,
+          "densTall": 0.5487,
+          "densX": 0.6035,
+          "weight": 0.5487
+        },
+        "widthClass": "wide",
+        "weightClass": "medium",
+        "chosen": {
+          "family": "Taviraj",
+          "weight": 700,
+          "fontSizePx": 101,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 15,
+            "capHeightPx": 70.5,
+            "inkIsDark": true,
+            "allCaps": false,
+            "advance": 0.8085,
+            "advTall": 0.4965,
+            "advX": 0.8085,
+            "gap": 0.0426,
+            "xRatio": 0.6667,
+            "stemW": 0.2552,
+            "contrast": 2.8575,
+            "serif": 1.8633,
+            "densTall": 0.4535,
+            "densX": 0.5685,
+            "weight": 0.4535
+          },
+          "stamp": "da21a9b9f5b8"
+        }
+      }
+    },
+    {
+      "id": "subline",
+      "kind": "text",
+      "note": "two-line sans subline in cream",
+      "grid": null,
+      "box": {
+        "x": 0.319,
+        "y": 0.4082,
+        "w": 0.3646,
+        "h": 0.0703
+      },
+      "px": {
+        "x": 490,
+        "y": 418,
+        "w": 560,
+        "h": 72
+      },
+      "aspect": 7.7778,
+      "palette": [
+        {
+          "hex": "#431908",
+          "coverage": 0.7704
+        },
+        {
+          "hex": "#f6f1e5",
+          "coverage": 0.1198
+        },
+        {
+          "hex": "#2f0808",
+          "coverage": 0.0456
+        },
+        {
+          "hex": "#684732",
+          "coverage": 0.0385
+        },
+        {
+          "hex": "#9c806d",
+          "coverage": 0.0257
+        }
+      ],
+      "detail": {
+        "energy": 88.9998
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 56,
+          "capHeightPx": 21.8,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.617,
+          "advTall": 0.5965,
+          "advX": 0.617,
+          "gap": 0.1836,
+          "xRatio": 0.7006,
+          "stemW": 0.159,
+          "contrast": 1.1778,
+          "serif": 0.9798,
+          "densTall": 0.6128,
+          "densX": 0.5576,
+          "weight": 0.6128
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Mirza",
+          "weight": 400,
+          "fontSizePx": 37,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 22,
+            "capHeightPx": 21.9,
+            "inkIsDark": true,
+            "allCaps": false,
+            "advance": 0.6175,
+            "advTall": 0.629,
+            "advX": 0.5718,
+            "gap": 0.183,
+            "xRatio": 0.7002,
+            "stemW": 0.1576,
+            "contrast": 1.3134,
+            "serif": 1.2079,
+            "densTall": 0.5351,
+            "densX": 0.5554,
+            "weight": 0.5351
+          },
+          "stamp": "b6c3866b4e8c"
+        }
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "control",
+      "note": "green pill button with WhatsApp icon Pesan via WhatsApp",
+      "grid": null,
+      "box": {
+        "x": 0.3164,
+        "y": 0.5039,
+        "w": 0.2969,
+        "h": 0.0762
+      },
+      "px": {
+        "x": 486,
+        "y": 516,
+        "w": 456,
+        "h": 78
+      },
+      "aspect": 5.8462,
+      "palette": [
+        {
+          "hex": "#2f6d08",
+          "coverage": 0.7464
+        },
+        {
+          "hex": "#411808",
+          "coverage": 0.0883
+        },
+        {
+          "hex": "#f6f7f5",
+          "coverage": 0.082
+        },
+        {
+          "hex": "#355b0b",
+          "coverage": 0.0498
+        },
+        {
+          "hex": "#8ab650",
+          "coverage": 0.0335
+        }
+      ],
+      "detail": {
+        "energy": 40.0349
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    }
+  ],
+  "compSha256": "96c8fe63996b850495c3f8ccbf1902030b099e2826550cdb4c846161d5082155",
+  "regionsSource": {
+    "path": ".impeccable/build/regions.json",
+    "sha256": "2172e4abea061df0f2dda9802e663ab219bc39a618b2b314317d26cd7ca3e5af"
+  }
+}

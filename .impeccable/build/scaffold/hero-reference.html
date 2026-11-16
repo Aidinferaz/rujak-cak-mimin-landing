@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scaffold reference: comp-pour-quiet.png</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Platypi:wght@700&family=Taviraj:wght@700&family=Mirza:wght@400&display=swap">
+  <link rel="stylesheet" href="layout.css">
+  <style>html,body{margin:0}body{background:#431908}.region{box-sizing:border-box}.region.text p{white-space:pre-wrap}</style>
+</head>
+<body>
+<!-- Reference only. Every region sits at its measured box inside a comp-aspect frame. Take the boxes (layout.css), keep your own semantic structure. -->
+<main class="comp-frame" style="max-width:1536px">
+  <div class="r-ground region texture" data-region="ground" style="background-image:url('../../../assets/plates/ground.png');background-repeat:repeat"></div>
+  <figure class="r-pour region plate" data-region="pour"><img src="../../../assets/plates/pour.png" alt="" style="width:100%;height:100%;object-fit:contain;object-position:top left"></figure>
+  <figure class="r-cobek region plate" data-region="cobek"><img src="../../../assets/plates/cobek.png" alt="" style="width:100%;height:100%;object-fit:contain;object-position:top left"></figure>
+  <div class="r-wordmark region text" data-region="wordmark"><!-- serif wordmark Cak Mimin in cream --><p style="font-size:var(--r-wordmark-font);font-family:var(--r-wordmark-family),sans-serif;font-weight:var(--r-wordmark-weight);line-height:1.05;margin:0">wordmark</p></div>
+  <div class="r-wordmark-sub region text" data-region="wordmark-sub"><!-- small tracked caps BUMBU RUJAK MANIS between thin rules --><p style="font-size:var(--r-wordmark-sub-font);line-height:1.05;margin:0">wordmark-sub</p></div>
+  <div class="r-nav region chrome" data-region="nav"><!-- navigation links Cerita Varian Cara Ngerujak Testimoni Kemitraan in cream sans --></div>
+  <div class="r-nav-pesan region control" data-region="nav-pesan"><!-- underlined Pesan link: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop nav-pesan); a control need not have button chrome --></div>
+  <div class="r-rail region chrome" data-region="rail"><!-- vertical stage rail 01 Nira active in a green flag, 02 Wajan 03 Cobek 04 Piring muted with ring dots on a thin line --></div>
+  <div class="r-headline region text" data-region="headline"><!-- three-line high-contrast serif headline Manisnya / dari nira, / bukan dari pabrik. in cream --><p style="font-size:var(--r-headline-font);font-family:var(--r-headline-family),sans-serif;font-weight:var(--r-headline-weight);line-height:1.05;margin:0">headline</p></div>
+  <div class="r-subline region text" data-region="subline"><!-- two-line sans subline in cream --><p style="font-size:var(--r-subline-font);font-family:var(--r-subline-family),sans-serif;font-weight:var(--r-subline-weight);line-height:1.05;margin:0">subline</p></div>
+  <div class="r-cta region control" data-region="cta"><!-- green pill button with WhatsApp icon Pesan via WhatsApp: match the control's lettering and visible shape to the crop (comp-spec.mjs --crop cta); a control need not have button chrome --></div>
+</main>
+</body>
+</html>

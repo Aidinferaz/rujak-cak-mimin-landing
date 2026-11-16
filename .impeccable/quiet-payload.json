@@ -1,0 +1,9 @@
+{
+  "title": "Versi tenang vs versi awal",
+  "question": "Mengikuti catatan Anda (simpel dan elegan, tidak ramai), komposisi 'Tuangan nira' saya sederhanakan. Mana yang jadi acuan build?",
+  "options": [
+    {"id": "quiet", "label": "Tuangan nira, versi tenang", "kicker": "SESUAI CATATAN", "thesis": "Komposisinya sama, elemen dikurangi: hanya aliran gula aren, cobek, dan tiga irisan mangga di atas daun pisang.", "palette": ["#3A1D12","#B8692A","#F3E6CF","#3F7A22"], "materials": ["aliran karamel","cobek","daun pisang","kawung timbul samar"], "viewport": "Banyak ruang kosong, judul besar, satu tombol hijau, rel 01–04 di margin.", "risk": "Produk (kemasan) tidak tampil di layar pertama; baru muncul di bagian Varian.", "comp": ".impeccable/mocks/comp-pour-quiet.png"},
+    {"id": "original", "label": "Tuangan nira, versi awal", "kicker": "VERSI AWAL", "thesis": "Lengkap dengan kemasan pouch, nampan gula aren, lencana daun, dan buah.", "palette": ["#2E1810","#A85A26","#D9893B","#4F6B2C","#C93A22"], "materials": ["aliran karamel","pouch","nampan anyaman","lencana daun"], "viewport": "Padat; produk langsung terlihat di layar pertama.", "risk": "Lebih ramai, mendekati kesan iklan.", "comp": ".impeccable/mocks/comp-pour.png"}
+  ],
+  "steer": true
+}

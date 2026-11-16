@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T13:45:41.371Z",
+  "title": "Design System: Cak Mimin · Bumbu Rujak Manis",
+  "extensions": {
+    "colorMeta": {
+      "aren-900": {
+        "role": "neutral",
+        "displayName": "Gula Aren Gosong",
+        "canonical": "oklch(20.9% 0.049 41.7)",
+        "tonalRamp": [
+          "oklch(15% 0.049 41.7)",
+          "oklch(25% 0.049 41.7)",
+          "oklch(35% 0.049 41.7)",
+          "oklch(45% 0.049 41.7)",
+          "oklch(58% 0.049 41.7)",
+          "oklch(70% 0.049 41.7)",
+          "oklch(82% 0.049 41.7)",
+          "oklch(95% 0.030 41.7)"
+        ]
+      },
+      "aren-800": {
+        "role": "neutral",
+        "displayName": "Gula Aren",
+        "canonical": "oklch(27.4% 0.070 41.1)",
+        "tonalRamp": [
+          "oklch(15% 0.070 41.1)",
+          "oklch(25% 0.070 41.1)",
+          "oklch(35% 0.070 41.1)",
+          "oklch(45% 0.070 41.1)",
+          "oklch(58% 0.070 41.1)",
+          "oklch(70% 0.070 41.1)",
+          "oklch(82% 0.070 41.1)",
+          "oklch(95% 0.030 41.1)"
+        ]
+      },
+      "karamel": {
+        "role": "primary",
+        "displayName": "Molten Caramel",
+        "canonical": "oklch(62.1% 0.134 59.9)",
+        "tonalRamp": [
+          "oklch(15% 0.134 59.9)",
+          "oklch(25% 0.134 59.9)",
+          "oklch(35% 0.134 59.9)",
+          "oklch(45% 0.134 59.9)",
+          "oklch(58% 0.134 59.9)",
+          "oklch(70% 0.134 59.9)",
+          "oklch(82% 0.134 59.9)",
+          "oklch(95% 0.030 59.9)"
+        ]
+      },
+      "karamel-soft": {
+        "role": "primary",
+        "displayName": "Soft Caramel",
+        "canonical": "oklch(73.3% 0.116 67.9)",
+        "tonalRamp": [
+          "oklch(15% 0.116 67.9)",
+          "oklch(25% 0.116 67.9)",
+          "oklch(35% 0.116 67.9)",
+          "oklch(45% 0.116 67.9)",
+          "oklch(58% 0.116 67.9)",
+          "oklch(70% 0.116 67.9)",
+          "oklch(82% 0.116 67.9)",
+          "oklch(95% 0.030 67.9)"
+        ]
+      },
+      "santan": {
+        "role": "neutral",
+        "displayName": "Santan",
+        "canonical": "oklch(95.1% 0.029 87.5)",
+        "tonalRamp": [
+          "oklch(15% 0.029 87.5)",
+          "oklch(25% 0.029 87.5)",
+          "oklch(35% 0.029 87.5)",
+          "oklch(45% 0.029 87.5)",
+          "oklch(58% 0.029 87.5)",
+          "oklch(70% 0.029 87.5)",
+          "oklch(82% 0.029 87.5)",
+          "oklch(95% 0.029 87.5)"
+        ]
+      },
+      "santan-dim": {
+        "role": "neutral",
+        "displayName": "Santan Redup",
+        "canonical": "oklch(83.8% 0.041 77.1)",
+        "tonalRamp": [
+          "oklch(15% 0.041 77.1)",
+          "oklch(25% 0.041 77.1)",
+          "oklch(35% 0.041 77.1)",
+          "oklch(45% 0.041 77.1)",
+          "oklch(58% 0.041 77.1)",
+          "oklch(70% 0.041 77.1)",
+          "oklch(82% 0.041 77.1)",
+          "oklch(95% 0.030 77.1)"
+        ]
+      },
+      "daun": {
+        "role": "secondary",
+        "displayName": "Banana Leaf (mix source only)",
+        "canonical": "oklch(47.6% 0.134 138.6)",
+        "tonalRamp": [
+          "oklch(15% 0.134 138.6)",
+          "oklch(25% 0.134 138.6)",
+          "oklch(35% 0.134 138.6)",
+          "oklch(45% 0.134 138.6)",
+          "oklch(58% 0.134 138.6)",
+          "oklch(70% 0.134 138.6)",
+          "oklch(82% 0.134 138.6)",
+          "oklch(95% 0.030 138.6)"
+        ]
+      },
+      "daun-terang": {
+        "role": "secondary",
+        "displayName": "Bright Leaf (mix source only)",
+        "canonical": "oklch(56.4% 0.158 138.3)",
+        "tonalRamp": [
+          "oklch(15% 0.158 138.3)",
+          "oklch(25% 0.158 138.3)",
+          "oklch(35% 0.158 138.3)",
+          "oklch(45% 0.158 138.3)",
+          "oklch(58% 0.158 138.3)",
+          "oklch(70% 0.158 138.3)",
+          "oklch(82% 0.158 138.3)",
+          "oklch(95% 0.030 138.3)"
+        ]
+      },
+      "daun-redam": {
+        "role": "secondary",
+        "displayName": "Muted Banana Leaf",
+        "canonical": "color-mix(in oklab, var(--daun) 62%, var(--aren-900))"
+      },
+      "daun-redam-hover": {
+        "role": "secondary",
+        "displayName": "Muted Banana Leaf, hover",
+        "canonical": "color-mix(in oklab, var(--daun-terang) 70%, var(--aren-900))"
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgb(247 238 217 / 0.18)"
+      },
+      "rail-muted": {
+        "role": "neutral",
+        "displayName": "Rail Muted",
+        "canonical": "rgb(205 180 163 / 0.6)"
+      },
+      "frame-line": {
+        "role": "primary",
+        "displayName": "Frame Line (karamel-soft 35%)",
+        "canonical": "rgb(217 154 82 / 0.35)"
+      },
+      "dot-ring": {
+        "role": "primary",
+        "displayName": "Dot Ring (karamel-soft 55%)",
+        "canonical": "rgb(217 154 82 / 0.55)"
+      },
+      "mask": {
+        "role": "neutral",
+        "displayName": "Mask Ink (alpha only, never painted)",
+        "canonical": "#000"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; sized in comp pixels (--k)."
+      },
+      "display-mobile": {
+        "displayName": "Display, stacked",
+        "purpose": "Hero headline below 900px or portrait."
+      },
+      "hero-sub": {
+        "displayName": "Hero Sub",
+        "purpose": "Two-line hero sub in comp pixels."
+      },
+      "hero-sub-mobile": {
+        "displayName": "Hero Sub, stacked",
+        "purpose": "Hero sub below 900px or portrait."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles, max 17ch; closing phrase may turn italic karamel-soft."
+      },
+      "headline-closing": {
+        "displayName": "Closing Headline",
+        "purpose": "Closing CTA title."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Story stage headings."
+      },
+      "title-product": {
+        "displayName": "Product Title",
+        "purpose": "Bottle and companion names."
+      },
+      "title-sm": {
+        "displayName": "Small Title",
+        "purpose": "Step headings."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Testimonials, italic."
+      },
+      "quote-mark": {
+        "displayName": "Quote Mark",
+        "purpose": "64px karamel-soft opening mark above each testimonial."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Step numbers, italic karamel-soft, tabular."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Product prices, tabular."
+      },
+      "logo-hero": {
+        "displayName": "Logo, hero",
+        "purpose": "Logo container size in the hero (comp pixels)."
+      },
+      "logo-footer": {
+        "displayName": "Logo, footer",
+        "purpose": "Logo container size in the footer."
+      },
+      "logo-mobile": {
+        "displayName": "Logo, stacked hero",
+        "purpose": "Logo container size below 900px or portrait."
+      },
+      "logo-mini": {
+        "displayName": "Logo, mini bar",
+        "purpose": "Logo container size in the mini bar."
+      },
+      "monogram": {
+        "displayName": "Monogram",
+        "purpose": "Pinyon Script \"Cm\" from the real packaging label; logo only."
+      },
+      "rail": {
+        "displayName": "Rail",
+        "purpose": "Stage-rail number and name (comp pixels)."
+      },
+      "nav-hero": {
+        "displayName": "Hero Nav",
+        "purpose": "Hero navigation links (comp pixels)."
+      },
+      "body-story": {
+        "displayName": "Body Story",
+        "purpose": "Story copy, max 38ch."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "Section leads, max 46ch."
+      },
+      "body-lg": {
+        "displayName": "Body Large",
+        "purpose": "Step copy, max 44ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Buttons and companion copy."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Bottle notes, tier copy, stacked-hero Pesan link."
+      },
+      "item-title": {
+        "displayName": "Item Title",
+        "purpose": "Partnership tier names."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Mini-bar and footer links, quote roles, certification names."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Footer meta and contact lines."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Certification numbers, tabular."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase heat-scale label."
+      }
+    },
+    "shadows": [
+      {
+        "name": "jar-drop",
+        "value": "drop-shadow(0 20px 26px rgb(15 4 1 / 0.45))",
+        "purpose": "Filter on the Bangkok companion jar."
+      },
+      {
+        "name": "bottle-pool",
+        "value": "radial-gradient(closest-side, rgb(217 154 82 / 0.22), transparent)",
+        "purpose": "Caramel pool of light under each bottle, in place of a shadow."
+      },
+      {
+        "name": "stage-halo",
+        "value": "0 0 0 calc(5 * var(--k)) rgb(192 112 31 / 0.18)",
+        "purpose": "Ring around the active stage-rail dot."
+      },
+      {
+        "name": "photo-frame",
+        "value": "outline: 1px solid rgb(217 154 82 / 0.35); outline-offset: 11px",
+        "purpose": "Shared frame on every photo (story, steps, partnership)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-settle",
+        "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Mini bar slide, story text rise, bottle hover lift (8px, 0.6s), story image settle."
+      },
+      {
+        "name": "ease-wipe",
+        "value": "cubic-bezier(0.7, 0, 0.2, 1)",
+        "purpose": "Story frame clip-path wipe (1.1s)."
+      },
+      {
+        "name": "hover-color",
+        "value": "0.25s ease",
+        "purpose": "Link and nav colour shifts."
+      },
+      {
+        "name": "button",
+        "value": "0.3s ease",
+        "purpose": "Button fill and border transitions; arrow nudge."
+      },
+      {
+        "name": "reveal",
+        "value": "GSAP power3.out, 1s",
+        "purpose": "[data-reveal] elements entering the viewport; Lenis smooth scroll at 1.15s."
+      },
+      {
+        "name": "pour-intro",
+        "value": "clip-path inset(0 0 100% 0) to inset(0), 1.8s power2.inOut",
+        "purpose": "Hero pour streams in from the top on load."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "1100px",
+        "purpose": "Bottles two per row; quotes one 560px column; section heads and splits single-column; mini nav hides."
+      },
+      {
+        "name": "hero-flow",
+        "value": "899px or portrait",
+        "purpose": "Hero becomes a flowing stack; pinned story becomes a threaded list."
+      },
+      {
+        "name": "narrow",
+        "value": "600px",
+        "purpose": "Bottle price foot stacks; companion jar shrinks."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Logo",
+      "kind": "custom",
+      "refersTo": "logo-hero",
+      "description": "Script Cm monogram from the real label over Cak Mimin in Taviraj 600, with the rule-flanked sub-line.",
+      "html": "<span class=\"ds-logo\" style=\"font-size:48px\"><span class=\"ds-logo-cm\" aria-hidden=\"true\">Cm</span><span class=\"ds-logo-name\">Cak Mimin</span><span class=\"ds-logo-sub\">Bumbu Rujak Manis</span></span>",
+      "css": ".ds-logo{position:relative;display:inline-flex;flex-direction:column;align-items:center;padding-top:.5em;color:#f7eed9;line-height:1}.ds-logo-cm{position:absolute;top:-.16em;left:.04em;font-family:'Pinyon Script',cursive;font-size:.86em;line-height:1;color:#d99a52}.ds-logo-name{font-family:Taviraj,Georgia,serif;font-weight:600;letter-spacing:.012em}.ds-logo-sub{margin-top:.36em;display:flex;align-items:center;gap:.6em;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:.26em;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#d9c7ad}.ds-logo-sub::before,.ds-logo-sub::after{content:'';width:1.6em;height:1px;background:currentColor;opacity:.7}"
+    },
+    {
+      "name": "Leaf Button",
+      "kind": "button",
+      "refersTo": "button-leaf",
+      "description": "The only green on the page: order and partnership actions.",
+      "html": "<a class=\"ds-btn-leaf\" href=\"#\"><svg class=\"ds-btn-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z\"/></svg>Pesan via WhatsApp</a>",
+      "css": ".ds-btn-leaf{display:inline-flex;align-items:center;gap:12px;padding:18px 30px;border:1px solid color-mix(in oklab,var(--daun-terang,#3f8a1f) 55%,var(--aren-900,#2a0f05));border-radius:999px;background:color-mix(in oklab,var(--daun,#2f6d16) 62%,var(--aren-900,#2a0f05));color:var(--santan,#f7eed9);font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:17px;font-weight:600;text-decoration:none;transition:background-color .3s ease,border-color .3s ease}.ds-btn-leaf:hover{background:color-mix(in oklab,var(--daun-terang,#3f8a1f) 70%,var(--aren-900,#2a0f05));border-color:color-mix(in oklab,var(--daun-terang,#3f8a1f) 70%,var(--aren-900,#2a0f05))}.ds-btn-leaf:focus-visible{outline:2px solid var(--karamel-soft,#d99a52);outline-offset:3px}.ds-btn-icon{width:22px;height:22px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Underlined santan link with a line arrow; per-product order links.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">Pesan<svg class=\"ds-arrow\" viewBox=\"0 0 20 12\" fill=\"none\" aria-hidden=\"true\"><path d=\"M1 6h17M13 1l5 5-5 5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:8px;color:var(--santan,#f7eed9);font-family:'Hanken Grotesk',system-ui,sans-serif;font-weight:600;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;transition:color .25s ease}.ds-text-link:hover{color:var(--karamel-soft,#d99a52)}.ds-text-link:focus-visible{outline:2px solid var(--karamel-soft,#d99a52);outline-offset:3px;border-radius:4px}.ds-arrow{width:18px;height:11px;transition:translate .3s ease}.ds-text-link:hover .ds-arrow{translate:4px 0}"
+    },
+    {
+      "name": "Mini Bar",
+      "kind": "nav",
+      "refersTo": "mini-bar",
+      "description": "Fixed bar that slides in after the hero.",
+      "html": "<nav class=\"ds-mini\"><a class=\"ds-mini-mark\" href=\"#\"><span class=\"ds-logo\"><span class=\"ds-logo-cm\" aria-hidden=\"true\">Cm</span><span class=\"ds-logo-name\">Cak Mimin</span></span></a><span class=\"ds-mini-nav\"><a href=\"#\">Cerita</a><a href=\"#\">Varian</a><a href=\"#\">Kemitraan</a></span><a class=\"ds-mini-pesan\" href=\"#\">Pesan</a></nav>",
+      "css": ".ds-mini{display:flex;align-items:center;justify-content:space-between;gap:24px;height:64px;padding:0 32px;background:rgb(42 15 5 / .82);backdrop-filter:blur(14px);border-bottom:1px solid rgb(247 238 217 / .18);font-family:'Hanken Grotesk',system-ui,sans-serif}.ds-mini-mark{font-size:25px;text-decoration:none}.ds-mini-nav{display:flex;gap:32px}.ds-mini-nav a,.ds-mini-pesan{color:#f7eed9;font-size:15px;font-weight:500;text-decoration:none;transition:color .25s ease}.ds-mini-nav a:hover,.ds-mini-pesan:hover{color:#d99a52}.ds-mini a:focus-visible{outline:2px solid #d99a52;outline-offset:3px;border-radius:4px}.ds-mini-pesan{text-decoration:underline;text-underline-offset:6px}.ds-logo{position:relative;display:inline-flex;flex-direction:column;align-items:center;padding-top:.5em;color:#f7eed9;line-height:1}.ds-logo-cm{position:absolute;top:-.16em;left:.04em;font-family:'Pinyon Script',cursive;font-size:.86em;line-height:1;color:#d99a52}.ds-logo-name{font-family:Taviraj,Georgia,serif;font-weight:600;letter-spacing:.012em}.ds-logo-sub{margin-top:.36em;display:flex;align-items:center;gap:.6em;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:.26em;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#d9c7ad}.ds-logo-sub::before,.ds-logo-sub::after{content:'';width:1.6em;height:1px;background:currentColor;opacity:.7}"
+    },
+    {
+      "name": "Stage Rail",
+      "kind": "custom",
+      "refersTo": "stage-rail",
+      "description": "The page spine: 01 Nira to 04 Piring with ring dots and a caramel thread.",
+      "html": "<ol class=\"ds-rail\"><li class=\"done\"><a href=\"#\"><span>01</span><span>Nira</span></a></li><li class=\"on\"><a href=\"#\"><span>02</span><span>Wajan</span></a></li><li><a href=\"#\"><span>03</span><span>Cobek</span></a></li><li><a href=\"#\"><span>04</span><span>Piring</span></a></li></ol>",
+      "css": ".ds-rail{position:relative;list-style:none;margin:0;padding:8px 0;display:flex;flex-direction:column;gap:18px;background:#431908;font-family:'Hanken Grotesk',system-ui,sans-serif}.ds-rail::before{content:'';position:absolute;left:12px;top:0;bottom:0;width:1px;background:#d9c7ad;opacity:.55}.ds-rail::after{content:'';position:absolute;left:11.5px;top:0;height:38%;width:2px;background:linear-gradient(to bottom,#d99a52,#c0701f)}.ds-rail a{position:relative;display:flex;flex-direction:column;padding:6px 24px 6px 32px;color:rgb(205 180 163 / .6);text-decoration:none;font-size:17px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums lining-nums;transition:color .4s ease}.ds-rail a::before{content:'';position:absolute;left:6px;top:50%;width:10px;height:10px;translate:0 -50%;border:2px solid currentColor;border-radius:50%;background:#431908;z-index:1}.ds-rail .done a{color:#d9c7ad}.ds-rail .done a::before{border-color:#c0701f}.ds-rail .on a{color:#f7eed9}.ds-rail .on a::before{background:#c0701f;border-color:#c0701f;box-shadow:0 0 0 4px rgb(192 112 31 / .18)}.ds-rail a:hover{color:#f7eed9}.ds-rail a:focus-visible{outline:2px solid #d99a52;outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Heat Scale",
+      "kind": "custom",
+      "refersTo": "heat-dot-on",
+      "description": "One shared four-dot heat scale for every bottle.",
+      "html": "<div class=\"ds-heat\"><span class=\"l\">Pedas</span><span class=\"d\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i></i></span></div>",
+      "css": ".ds-heat{display:flex;align-items:center;gap:12px;font-family:'Hanken Grotesk',system-ui,sans-serif}.ds-heat .l{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#d9c7ad}.ds-heat .d{display:flex;gap:7px}.ds-heat i{width:10px;height:10px;border-radius:50%;border:1px solid rgb(217 154 82 / .55)}.ds-heat i.on{background:#d99a52;border-color:#d99a52}"
+    },
+    {
+      "name": "Section Headline",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Two-column head on the gutter: Taviraj title left with an italic caramel turn; lead and certifications right.",
+      "html": "<div class=\"ds-head\"><h2>Satu resep, <em>empat tingkat pedas.</em></h2><p>Semua varian memakai gula aren yang sama. Bedanya cuma di cabai, dan warna tutupnya.</p><ul class=\"ds-certs\"><li><span class=\"n\">Halal Indonesia</span><span class=\"no\">ID00000000000000</span></li><li><span class=\"n\">BPOM RI</span><span class=\"no\">MD 000000000000</span></li></ul></div>",
+      "css": ".ds-head{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);column-gap:clamp(32px,6vw,120px);color:#f7eed9}.ds-head h2{grid-column:1;grid-row:1/span 2;align-self:end;margin:0;max-width:17ch;font-family:Taviraj,Georgia,serif;font-weight:700;font-size:clamp(40px,5.2vw,84px);line-height:.98;letter-spacing:-.015em;text-wrap:balance}.ds-head em{font-style:italic;font-weight:500;color:#d99a52}.ds-head p{grid-column:2;grid-row:1;align-self:end;margin:0;max-width:46ch;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:clamp(17px,1.3vw,20px);line-height:1.6;color:#d9c7ad}.ds-certs{grid-column:2;grid-row:2;list-style:none;margin:32px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:12px 32px;font-family:'Hanken Grotesk',system-ui,sans-serif}.ds-certs li{display:flex;flex-direction:column;gap:4px;padding-left:14px;border-left:2px solid #c0701f}.ds-certs .n{font-size:15px;font-weight:700}.ds-certs .no{font-size:13px;color:#d9c7ad;font-variant-numeric:tabular-nums lining-nums}"
+    },
+    {
+      "name": "Numbered Step",
+      "kind": "custom",
+      "refersTo": "numeral",
+      "description": "Hairline-ruled step with an italic caramel tabular numeral in a margin column.",
+      "html": "<ol class=\"ds-steps\"><li><span class=\"no\">01</span><div><h3>Kupas dan potong buah</h3><p>Mangga muda, bengkuang, jambu air.</p></div></li></ol>",
+      "css": ".ds-steps{list-style:none;margin:0;padding:0}.ds-steps li{display:grid;grid-template-columns:clamp(64px,6vw,110px) 1fr;gap:16px;padding:40px 0;border-top:1px solid rgb(247 238 217 / .18);border-bottom:1px solid rgb(247 238 217 / .18)}.ds-steps .no{font-family:Taviraj,Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(32px,3vw,48px);line-height:1;color:#d99a52;font-variant-numeric:tabular-nums lining-nums}.ds-steps h3{margin:0;font-family:Taviraj,Georgia,serif;font-weight:700;font-size:clamp(24px,2vw,32px);line-height:1.1;color:#f7eed9}.ds-steps p{margin:12px 0 0;max-width:44ch;font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:18px;line-height:1.6;color:#d9c7ad}"
+    },
+    {
+      "name": "Photo Frame",
+      "kind": "custom",
+      "refersTo": "frame-line",
+      "description": "Square-cornered 4:5 photo with a 1px caramel outline offset 11px; shared by every photo.",
+      "html": "<figure class=\"ds-frame\"><div class=\"ds-frame-img\"></div></figure>",
+      "css": ".ds-frame{margin:12px;width:240px;aspect-ratio:4/5;overflow:hidden;outline:1px solid rgb(217 154 82 / .35);outline-offset:11px;background:#2a0f05}.ds-frame-img{width:100%;height:100%;background:linear-gradient(160deg,#431908,#2a0f05)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Dari Nira ke Cobek",
+    "overview": "The page is cooked like gula aren. One molten ribbon of palm sugar pours from the top edge of the hero into a stone cobek, and the scroll follows that same thread through four stages (Nira, Wajan, Cobek, Piring) down a margin rail. Every surface sits on one textured aren-brown ground; light arrives only where the sugar catches it, as caramel. The world is warm, dark and editorial: big high-contrast serif headlines, real food photography held in a fine caramel frame, the brand's real bottles standing in pools of light, hairline rules instead of boxes.\n\nDensity is low and the rhythm is long but measured against the shorter screen side, so a laptop is not padded like a large monitor. Sections are not bands: they follow each other on the same ground, divided by a hairline held inside the gutter. Section heads split into two columns, the title on the left and the lead (and certifications) on the right. Green exists, but it is banana leaf seen in shadow: muted toward aren and reserved for the act of ordering. The identity is taken from the brand's own packaging: the script \"Cm\" monogram and the real bottles.",
+    "keyCharacteristics": [
+      "One ground: deep aren brown with a faint woven texture tile under every section, never cream, never white, never a flat band.",
+      "Sections separate by a hairline inset to the gutter, not by a tonal step.",
+      "Caramel is the only light: italic emphasis, numerals, the active rail stage, heat dots, the photo frame, the pool under each bottle.",
+      "Muted leaf green appears only on action buttons.",
+      "The brand's real packaging is the product image: cut-out bottles told apart by cap colour, fading at their foot into the ground.",
+      "The stage rail (01 to 04) is the page's spine: in the hero, then pinned through the story, filling with a caramel thread as you scroll."
+    ],
+    "rules": [
+      {
+        "name": "The One Ground Rule",
+        "body": "Every section sits on the same textured aren-800 ground. No cream, paper, white or darker flat band, ever; sections separate by a hairline inset to the gutter.",
+        "section": "colors"
+      },
+      {
+        "name": "The Leaf In Shadow Rule",
+        "body": "Green appears only on action buttons, and always mixed toward aren-900 (62% daun at rest). Never a saturated green fill, never green text, never a green section.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caramel Is Light Rule",
+        "body": "Caramel marks where attention lands (emphasis, active state, numerals, frames, the pool under a bottle). It is never a background area.",
+        "section": "colors"
+      },
+      {
+        "name": "The Italic Turn Rule",
+        "body": "A headline's closing phrase may turn italic 500 in karamel-soft (\"empat tingkat pedas.\", \"tanpa ngulek.\"). One turn per headline, at the end.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Spec Rule",
+        "body": "Every number that is compared or counted (stage numbers, step numbers, prices, certification numbers, WhatsApp number) uses tabular lining numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Packaging Script Rule",
+        "body": "Script type exists only as the \"Cm\" monogram taken from the real label. It is never used for headlines, labels or decoration.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Card Rule",
+        "body": "Content never sits in raised or filled boxes. Groups are separated by hairlines (1px, hair) above and below.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep every section on the one textured aren-800 ground and separate sections with a hairline inset to the gutter.",
+      "Do mix green toward aren-900 (62% daun) and use it only for action buttons.",
+      "Do fill the hero's right side with the kawung line pattern (karamel-soft at 30%, radial fade from the bottom-right, dissolving at the bottom edge).",
+      "Do align section heads to the gutter: title in the left column, lead and certifications in the right.",
+      "Do end a headline with one italic karamel-soft phrase when it needs emphasis.",
+      "Do separate content with hairlines (hair) instead of cards.",
+      "Do set compared numbers in tabular lining numerals.",
+      "Do show the brand's real packaging and real monogram; light products with a caramel pool, not a box.",
+      "Do frame every photo with the 1px caramel line offset 11px."
+    ],
+    "donts": [
+      "Don't put a WhatsApp button or green pill in the hero; ordering there is the underlined \"Pesan\" link.",
+      "Don't add a cream, paper, white or darker flat band anywhere on the page.",
+      "Don't paint saturated daun or daun-terang directly, or use green for text, badges or backgrounds.",
+      "Don't put content in filled or shadowed cards; shadow belongs only to objects in the scene (the jar).",
+      "Don't use Pinyon Script for anything but the \"Cm\" monogram.",
+      "Don't round photographs or media wells.",
+      "Don't paint #000; it exists only as mask alpha."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+A desktop landing page for "Cak Mimin — Bumbu Rujak Manis", an East Javanese family business selling ready-made sweet rujak dressing made with real palm sugar (gula aren asli) and no preservatives. Rendered edge to edge as a finished web page, landscape 3:2, crisp readable Indonesian text, no browser window or device.
+
+This is the category standard executed well: a clean food-brand landing page. Headline on the left: "Bumbu Rujak Manis Khas Jawa Timur", subline "Gula aren asli, tanpa pengawet. Tinggal tuang, langsung ngerujak.", primary button "Pesan via WhatsApp" and secondary "Lihat Varian". On the right, a product photograph of a glass jar of dark rujak sauce with a kraft label "Cak Mimin", surrounded by cut fruit. Below, three variant cards: "Manis Asli", "Pedas Nampol", "Kacang Gurih".
+
+Frame: wordmark "Cak Mimin" top left; navigation Cerita, Varian, Testimoni, Kemitraan; WhatsApp button top right.
+
+Visual law: warm off-white ground, dark brown text, terracotta buttons, banana-leaf green accents; a friendly serif for headlines and a clean sans for body; generous whitespace and rounded cards.

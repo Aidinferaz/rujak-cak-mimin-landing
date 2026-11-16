@@ -1,0 +1,299 @@
+/* ==========================================================
+   Cerita: "ikuti alirannya"
+   Default (mobile, reduced motion, no JS): a vertical journey.
+   .is-horizontal (desktop + motion): pinned horizontal track,
+   a caramel ribbon drawn by scroll, stage words in parallax.
+   ========================================================== */
+
+.story {
+  position: relative;
+  overflow-x: clip;
+}
+.story-intro {
+  padding: var(--sec-y) var(--gutter) clamp(32px, 5svh, 56px);
+}
+.story-intro .section-title {
+  max-width: 13ch;
+  font-size: clamp(44px, 6vw, 104px);
+  line-height: 0.95;
+}
+.story-intro .section-title em {
+  display: block;
+}
+.story-hint {
+  margin: 36px 0 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--karamel-soft);
+}
+.story-hint svg {
+  width: 40px;
+  height: 12px;
+}
+.story-ribbon,
+.story-progress {
+  display: none;
+}
+
+/* ---------- stage (shared) ---------- */
+.story-stage {
+  position: relative;
+  padding: clamp(40px, 8svh, 72px) var(--gutter);
+}
+.story-word {
+  position: absolute;
+  z-index: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(217 154 82 / 0.28);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+.story-photo {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  background: var(--aren-900);
+  box-shadow: 0 30px 60px -20px rgb(15 4 1 / 0.6);
+}
+.story-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-text {
+  position: relative;
+  z-index: 2;
+}
+.story-step {
+  margin: 0 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--karamel-soft);
+}
+.story-step span {
+  color: var(--santan-dim);
+}
+.story-step::after {
+  content: "";
+  width: 44px;
+  height: 1px;
+  background: rgb(217 154 82 / 0.5);
+}
+.story-text h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(36px, 3.8vw, 64px);
+  line-height: 1;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+.story-body {
+  margin: 22px 0 0;
+  max-width: 34ch;
+  font-size: clamp(17px, 1.35vw, 20px);
+  line-height: 1.65;
+  color: var(--santan-dim);
+}
+
+/* ---------- vertical journey (default) ---------- */
+.story:not(.is-horizontal) .story-track {
+  position: relative;
+}
+.story:not(.is-horizontal) .story-track::before {
+  /* the nira thread runs down the whole journey */
+  content: "";
+  position: absolute;
+  left: calc(var(--gutter) * 0.5);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--karamel), var(--karamel-soft) 50%, rgb(192 112 31 / 0.1));
+}
+.story:not(.is-horizontal) .story-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 80px);
+  align-items: center;
+  overflow: hidden;
+}
+.story:not(.is-horizontal) .story-word {
+  top: 0;
+  right: var(--gutter);
+  font-size: clamp(88px, 18vw, 240px);
+}
+.story:not(.is-horizontal) .story-stage--low .story-photo {
+  order: 2;
+}
+
+/* ---------- horizontal journey ---------- */
+.story.is-horizontal .story-pin {
+  position: relative;
+  height: 100svh;
+  overflow: hidden;
+}
+.story.is-horizontal .story-track {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: max-content;
+  will-change: transform;
+}
+.story.is-horizontal .story-intro {
+  flex: none;
+  width: min(62vw, 980px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--gutter);
+}
+.story.is-horizontal .story-ribbon {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: visible;
+}
+.story.is-horizontal .story-stage {
+  flex: none;
+  width: max(76vw, 980px);
+  height: 100%;
+  padding: 0;
+}
+.story.is-horizontal .story-word {
+  left: 3vw;
+  bottom: 4svh;
+  font-size: min(23vw, 40svh);
+}
+.story.is-horizontal .story-photo {
+  position: absolute;
+  left: 7vw;
+  width: min(27vw, 50svh);
+  z-index: 2;
+}
+.story.is-horizontal .story-stage--high .story-photo {
+  top: 11svh;
+}
+.story.is-horizontal .story-stage--low .story-photo {
+  bottom: 13svh;
+}
+.story.is-horizontal .story-text {
+  position: absolute;
+  left: calc(7vw + min(27vw, 50svh) + clamp(40px, 5vw, 96px));
+  width: min(32vw, 520px);
+  z-index: 3;
+}
+.story.is-horizontal .story-stage--high .story-text {
+  bottom: 22svh;
+}
+.story.is-horizontal .story-stage--low .story-text {
+  top: 20svh;
+}
+
+/* progress: a quiet index along the bottom edge */
+.story.is-horizontal .story-progress {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: clamp(20px, 4svh, 36px);
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.story.is-horizontal.is-started .story-progress {
+  opacity: 1;
+}
+.story-progress li {
+  position: relative;
+  padding-bottom: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: rgb(205 180 163 / 0.6);
+  transition: color 0.4s ease;
+}
+.story-progress li span {
+  margin-right: 6px;
+}
+.story-progress li.is-active {
+  color: var(--santan);
+}
+.story-progress li::before,
+.story-progress li i {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--hair);
+}
+.story-progress li i {
+  height: 2px;
+  bottom: -0.5px;
+  background: var(--karamel-soft);
+  transform-origin: 0 50%;
+  transform: scaleX(var(--fill, 0));
+}
+
+/* ---------- phones ---------- */
+@media (max-width: 899px), (orientation: portrait) {
+  .story:not(.is-horizontal) .story-stage {
+    grid-template-columns: 1fr;
+    padding-left: calc(var(--gutter) * 1.4);
+  }
+  .story:not(.is-horizontal) .story-stage--low .story-photo {
+    order: 0;
+  }
+  .story:not(.is-horizontal) .story-word {
+    top: 12px;
+    font-size: 26vw;
+  }
+  .story:not(.is-horizontal) .story-track::before {
+    left: calc(var(--gutter) * 0.55);
+  }
+}
+
+/* the ribbon passes behind copy: a ground-coloured halo keeps every glyph legible */
+.story.is-horizontal .story-text,
+.story.is-horizontal .story-intro {
+  text-shadow: 0 0 14px var(--aren-800), 0 0 6px var(--aren-800), 0 0 2px var(--aren-800);
+}
+
+/* the ribbon dips behind the copy: a soft pool of ground colour sits under each text block */
+.story.is-horizontal .story-text::before {
+  content: "";
+  position: absolute;
+  inset: -48px -64px;
+  z-index: -1;
+  background: radial-gradient(closest-side, var(--aren-800) 62%, rgb(67 25 8 / 0));
+  pointer-events: none;
+}

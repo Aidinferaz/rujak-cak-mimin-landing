@@ -1,0 +1,8 @@
+{
+  "tool": "codex image_generation",
+  "refs": [
+    "refs/wpa-board.png",
+    "refs/wpa-hero.png"
+  ],
+  "prompt": "A desktop landing page for \"Cak Mimin — Bumbu Rujak Manis\", an East Javanese family business selling ready-made sweet rujak dressing made with real palm sugar (gula aren asli) and no preservatives. Rendered edge to edge as a finished, working web page, landscape 3:2, crisp readable Indonesian text, no browser window or device. The attached references are style inspiration adapted into a real working product; do not copy their layout or content.\n\nThe visitor is a traveller looking for oleh-oleh or a home cook deciding to order. This comp is led by an East Java landscape in flat stacked silkscreen planes: aren palm trees, a mango orchard, distant volcano, and in the foreground a rujak vendor's table with a jar of Cak Mimin sauce and cut fruit. Beneath the scene, a caption bar in blocky caps: \"NGERUJAK, REK!\" with the line \"Bumbu rujak manis khas Jawa Timur. Gula aren asli, tanpa pengawet.\" and a clear button \"Pesan via WhatsApp\". Below, the next section \"Varian Cak Mimin\" starts as a section.\n\nFrame: wordmark \"Cak Mimin\" top left; navigation Cerita, Varian, Cara Ngerujak, Testimoni, Kemitraan; WhatsApp button top right.\n"
+}

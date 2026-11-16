@@ -1,0 +1,13 @@
+{ "regions": [
+  { "id": "ground", "kind": "texture", "pixelBox": {"x": 1240, "y": 430, "w": 260, "h": 200}, "note": "deep gula-aren brown ground with a very faint embossed kawung batik pattern" },
+  { "id": "pour", "kind": "plate", "pixelBox": {"x": 215, "y": 0, "w": 310, "h": 790}, "note": "single ribbon of molten amber gula aren pouring from the top edge down into the cobek", "bleed": true },
+  { "id": "cobek", "kind": "plate", "pixelBox": {"x": 0, "y": 600, "w": 1310, "h": 424}, "note": "black stone cobek full of chunky rujak sauce with peanuts, three slices of green mango, on a large banana leaf", "bleed": true },
+  { "id": "wordmark", "kind": "text", "pixelBox": {"x": 58, "y": 8, "w": 285, "h": 64}, "note": "serif wordmark Cak Mimin in cream" },
+  { "id": "wordmark-sub", "kind": "text", "pixelBox": {"x": 70, "y": 76, "w": 258, "h": 22}, "note": "small tracked caps BUMBU RUJAK MANIS between thin rules" },
+  { "id": "nav", "kind": "chrome", "pixelBox": {"x": 550, "y": 22, "w": 830, "h": 42}, "note": "navigation links Cerita Varian Cara Ngerujak Testimoni Kemitraan in cream sans" },
+  { "id": "nav-pesan", "kind": "control", "pixelBox": {"x": 1432, "y": 24, "w": 80, "h": 34}, "note": "underlined Pesan link" },
+  { "id": "rail", "kind": "chrome", "pixelBox": {"x": 44, "y": 168, "w": 168, "h": 420}, "note": "vertical stage rail 01 Nira active in a green flag, 02 Wajan 03 Cobek 04 Piring muted with ring dots on a thin line" },
+  { "id": "headline", "kind": "text", "pixelBox": {"x": 478, "y": 128, "w": 925, "h": 290}, "note": "three-line high-contrast serif headline Manisnya / dari nira, / bukan dari pabrik. in cream" },
+  { "id": "subline", "kind": "text", "pixelBox": {"x": 490, "y": 418, "w": 560, "h": 72}, "note": "two-line sans subline in cream" },
+  { "id": "cta", "kind": "control", "pixelBox": {"x": 486, "y": 516, "w": 456, "h": 78}, "note": "green pill button with WhatsApp icon Pesan via WhatsApp" }
+] }

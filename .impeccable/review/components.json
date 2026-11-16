@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 3,
+  "stage": "components",
+  "id": "components",
+  "title": "Plan and asset review · app/page.tsx",
+  "comp": {
+    "path": ".impeccable/mocks/comp-pour-quiet.png",
+    "width": 1536,
+    "height": 1024
+  },
+  "specSha256": "185278d3cd17a1d3ef8d272f09f608b936942830bc31713ffeae972b69f2f2ed",
+  "components": [
+    {
+      "id": "ground",
+      "name": "Ground",
+      "kind": "texture",
+      "role": "asset",
+      "box": {
+        "x": 0.8073,
+        "y": 0.4199,
+        "w": 0.1693,
+        "h": 0.1953
+      },
+      "note": "deep gula-aren brown ground with a very faint embossed kawung batik pattern",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/ground.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "pour",
+      "name": "Pour",
+      "kind": "plate",
+      "role": "asset",
+      "box": {
+        "x": 0.14,
+        "y": 0,
+        "w": 0.2018,
+        "h": 0.7715
+      },
+      "note": "single ribbon of molten amber gula aren pouring from the top edge down into the cobek",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/pour.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "cobek",
+      "name": "Cobek",
+      "kind": "plate",
+      "role": "asset",
+      "box": {
+        "x": 0,
+        "y": 0.5859,
+        "w": 0.8529,
+        "h": 0.4141
+      },
+      "note": "black stone cobek full of chunky rujak sauce with peanuts, three slices of green mango, on a large banana leaf",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/cobek.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "nav",
+      "name": "Nav",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0.3581,
+        "y": 0.0215,
+        "w": 0.5404,
+        "h": 0.041
+      },
+      "note": "navigation links Cerita Varian Cara Ngerujak Testimoni Kemitraan in cream sans",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    },
+    {
+      "id": "rail",
+      "name": "Rail",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0.0286,
+        "y": 0.1641,
+        "w": 0.1094,
+        "h": 0.4102
+      },
+      "note": "vertical stage rail 01 Nira active in a green flag, 02 Wajan 03 Cobek 04 Piring muted with ring dots on a thin line",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    }
+  ],
+  "codeRegions": [
+    {
+      "id": "wordmark",
+      "name": "Wordmark",
+      "kind": "text",
+      "box": {
+        "x": 0.0378,
+        "y": 0.0078,
+        "w": 0.1855,
+        "h": 0.0625
+      },
+      "note": "serif wordmark Cak Mimin in cream"
+    },
+    {
+      "id": "wordmark-sub",
+      "name": "Wordmark sub",
+      "kind": "text",
+      "box": {
+        "x": 0.0456,
+        "y": 0.0742,
+        "w": 0.168,
+        "h": 0.0215
+      },
+      "note": "small tracked caps BUMBU RUJAK MANIS between thin rules"
+    },
+    {
+      "id": "nav-pesan",
+      "name": "Nav pesan",
+      "kind": "control",
+      "box": {
+        "x": 0.9323,
+        "y": 0.0234,
+        "w": 0.0521,
+        "h": 0.0332
+      },
+      "note": "underlined Pesan link"
+    },
+    {
+      "id": "headline",
+      "name": "Headline",
+      "kind": "text",
+      "box": {
+        "x": 0.3112,
+        "y": 0.125,
+        "w": 0.6022,
+        "h": 0.2832
+      },
+      "note": "three-line high-contrast serif headline Manisnya / dari nira, / bukan dari pabrik. in cream"
+    },
+    {
+      "id": "subline",
+      "name": "Subline",
+      "kind": "text",
+      "box": {
+        "x": 0.319,
+        "y": 0.4082,
+        "w": 0.3646,
+        "h": 0.0703
+      },
+      "note": "two-line sans subline in cream"
+    },
+    {
+      "id": "cta",
+      "name": "Cta",
+      "kind": "control",
+      "box": {
+        "x": 0.3164,
+        "y": 0.5039,
+        "w": 0.2969,
+        "h": 0.0762
+      },
+      "note": "green pill button with WhatsApp icon Pesan via WhatsApp"
+    }
+  ]
+}
