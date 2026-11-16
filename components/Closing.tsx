@@ -1,6 +1,5 @@
 import { CITY, WHATSAPP_NUMBER, hero, nav, waLink } from "@/lib/content";
 import { WhatsAppIcon } from "./WhatsAppIcon";
-import { SampleTag } from "./Icons";
 import { Logo } from "./Logo";
 
 const prettyNumber = (n: string) => "+" + n.replace(/^(\d{2})(\d{3})(\d{4})(\d+)$/, "$1 $2-$3-$4");
@@ -36,7 +35,6 @@ export function Closing() {
           <a href={waLink(hero.waText)} target="_blank" rel="noopener" className="tabular">
             WhatsApp {prettyNumber(WHATSAPP_NUMBER)}
           </a>
-          <SampleTag />
           <span>© 2026 Cak Mimin</span>
         </div>
       </div>

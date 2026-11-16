@@ -21,9 +21,14 @@ export function Partnership() {
           ))}
         </ul>
 
-        <a className="btn btn-leaf" href={waLink(partnership.waText)} target="_blank" rel="noopener">
-          {partnership.cta} <ArrowIcon />
-        </a>
+        <div className="partner-actions">
+          <a className="btn btn-leaf" href={waLink(partnership.waText)} target="_blank" rel="noopener">
+            {partnership.cta} <ArrowIcon />
+          </a>
+          <a className="btn" href={partnership.resellerGroup} target="_blank" rel="noopener">
+            {partnership.resellerCta} <ArrowIcon />
+          </a>
+        </div>
       </div>
 
       <figure className="partner-figure" data-reveal>

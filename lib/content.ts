@@ -4,8 +4,8 @@
  * sebelum situs dipublikasikan (nomor WA, kota, harga, testimoni, syarat kemitraan).
  */
 
-// PLACEHOLDER: nomor WhatsApp format internasional tanpa "+" atau spasi.
-export const WHATSAPP_NUMBER = "6281234567890";
+// Nomor pemesanan resmi (format internasional tanpa "+" atau spasi).
+export const WHATSAPP_NUMBER = "6282165446876";
 // Dari label toples Bumbu Rujak Bangkok: "Oleh-oleh khas Surabaya".
 export const CITY = "Surabaya";
 
@@ -132,6 +132,9 @@ export const partnership = {
     { name: "Toko Oleh-oleh", detail: "Stok rutin dan materi display untuk rak toko Anda." },
   ],
   cta: "Ajukan Kemitraan",
+  // Grup WhatsApp resmi untuk reseller.
+  resellerGroup: "https://chat.whatsapp.com/DLKcwClcGhZAxK8ba79lSS",
+  resellerCta: "Gabung Grup Reseller",
   waText: "Halo Cak Mimin, saya tertarik bermitra. Saya dari (nama usaha/kota).",
   img: "/img/kemitraan.png",
 };

@@ -727,3 +727,9 @@ a:hover > .arrow-icon {
     width: min(60%, 220px);
   }
 }
+
+.partner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
