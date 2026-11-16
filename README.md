@@ -1,7 +1,7 @@
 # Cak Mimin · Landing Page
 
 Website bumbu rujak manis **Cak Mimin**, oleh-oleh khas Surabaya.
-Live: https://rujak-nailong.vercel.app
+Live: https://rujakcakmimin.vercel.app
 
 Dibangun dengan Next.js 16, Tailwind CSS 4, GSAP, dan Lenis.
 
